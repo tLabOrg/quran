@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="quran.mobile/quran.mobile.csproj" Id="9969b462-cd59-4d8b-8506-9acd261a8278">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>
