@@ -11,9 +11,10 @@ namespace quran.mobile.Components.Pages
 
     public partial class Home : ComponentBase
     {
-        string alphabet = "ابتثجحخدذرزسشصضطظعغفقكلمنهوي";
+        const string alphabet = "ابتثجحخدذرزسشصضطظعغفقكلمنهوي";
         protected List<Reader> readers { get; private set; } = new();
-        
+        string searchText = string.Empty;
+
         protected override async Task OnInitializedAsync()
         {
             await LoadReadersFromEmbeddedJsonAsync();

@@ -2,12 +2,16 @@
 
 <div class="header">
     <h1>القرآن الكريم</h1>
-    <input type="text" class="search-input" id="searchInput" placeholder="ابحث عن قارئ...">
+    <input type="text" class="search-input"
+           id="searchInput" placeholder="ابحث عن قارئ..."
+           @bind="searchText"
+           @bind:event="oninput">
 </div>
 
 @foreach (var letter in alphabet)
 {
-    @if(!readers.Any(r => r.Name.StartsWith(letter.ToString())))
+    var matching = readers.Where(r => r.Name[0] == letter && r.Name.Contains(searchText)).ToList();
+    @if(!matching.Any())
     {
         continue;
     }
@@ -15,7 +19,7 @@
     <div class="letter-group">
         <div class="letter-header">@(letter.ToString())</div>
         <ul class="reader-list">
-            @foreach (var reader in readers.Where(readers => readers.Name.StartsWith(letter.ToString())))
+            @foreach (var reader in matching)
             {
                 <li class="reader-item">
                     <div class="reader-name">@reader.Name</div>
