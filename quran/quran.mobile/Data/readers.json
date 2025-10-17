@@ -1,0 +1,934 @@
+[
+  {
+    "name": "إبراهيم الأخضر",
+    "page_url": "https://www.mp3quran.net/ar/1"
+  },
+  {
+    "name": "أكرم العلاقمي",
+    "page_url": "https://www.mp3quran.net/ar/10"
+  },
+  {
+    "name": "ماجد العنزي",
+    "page_url": "https://www.mp3quran.net/ar/100"
+  },
+  {
+    "name": "ماهر المعيقلي",
+    "page_url": "https://www.mp3quran.net/ar/102"
+  },
+  {
+    "name": "محمد الأيراوي",
+    "page_url": "https://www.mp3quran.net/ar/104"
+  },
+  {
+    "name": "محمد البراك",
+    "page_url": "https://www.mp3quran.net/ar/105"
+  },
+  {
+    "name": "محمد الطبلاوي",
+    "page_url": "https://www.mp3quran.net/ar/106"
+  },
+  {
+    "name": "محمد اللحيدان",
+    "page_url": "https://www.mp3quran.net/ar/107"
+  },
+  {
+    "name": "محمد المحيسني",
+    "page_url": "https://www.mp3quran.net/ar/108"
+  },
+  {
+    "name": "محمد أيوب",
+    "page_url": "https://www.mp3quran.net/ar/109"
+  },
+  {
+    "name": "الحسيني العزازي",
+    "page_url": "https://www.mp3quran.net/ar/11"
+  },
+  {
+    "name": "محمد صالح عالم شاه",
+    "page_url": "https://www.mp3quran.net/ar/110"
+  },
+  {
+    "name": "محمد جبريل",
+    "page_url": "https://www.mp3quran.net/ar/111"
+  },
+  {
+    "name": "محمد صديق المنشاوي",
+    "page_url": "https://www.mp3quran.net/ar/112"
+  },
+  {
+    "name": "محمد عبدالكريم",
+    "page_url": "https://www.mp3quran.net/ar/115"
+  },
+  {
+    "name": "محمد عبدالحكيم سعيد العبدالله",
+    "page_url": "https://www.mp3quran.net/ar/116"
+  },
+  {
+    "name": "محمود خليل الحصري",
+    "page_url": "https://www.mp3quran.net/ar/118"
+  },
+  {
+    "name": "إدريس أبكر",
+    "page_url": "https://www.mp3quran.net/ar/12"
+  },
+  {
+    "name": "محمود علي البنا",
+    "page_url": "https://www.mp3quran.net/ar/121"
+  },
+  {
+    "name": "مشاري العفاسي",
+    "page_url": "https://www.mp3quran.net/ar/123"
+  },
+  {
+    "name": "مصطفى إسماعيل",
+    "page_url": "https://www.mp3quran.net/ar/125"
+  },
+  {
+    "name": "مصطفى اللاهوني",
+    "page_url": "https://www.mp3quran.net/ar/126"
+  },
+  {
+    "name": "مصطفى رعد العزاوي",
+    "page_url": "https://www.mp3quran.net/ar/127"
+  },
+  {
+    "name": "معمر الأندونيسي",
+    "page_url": "https://www.mp3quran.net/ar/128"
+  },
+  {
+    "name": "مفتاح السلطني",
+    "page_url": "https://www.mp3quran.net/ar/129"
+  },
+  {
+    "name": "الزين محمد أحمد",
+    "page_url": "https://www.mp3quran.net/ar/13"
+  },
+  {
+    "name": "محمد سايد",
+    "page_url": "https://www.mp3quran.net/ar/134"
+  },
+  {
+    "name": "عبدالرحمن السويّد",
+    "page_url": "https://www.mp3quran.net/ar/135"
+  },
+  {
+    "name": "عبدالإله بن عون",
+    "page_url": "https://www.mp3quran.net/ar/136"
+  },
+  {
+    "name": "أحمد طالب بن حميد",
+    "page_url": "https://www.mp3quran.net/ar/137"
+  },
+  {
+    "name": "نورين محمد صديق",
+    "page_url": "https://www.mp3quran.net/ar/138"
+  },
+  {
+    "name": "ماجد الزامل",
+    "page_url": "https://www.mp3quran.net/ar/139"
+  },
+  {
+    "name": "القارئ ياسين",
+    "page_url": "https://www.mp3quran.net/ar/14"
+  },
+  {
+    "name": "ماهر شخاشيرو",
+    "page_url": "https://www.mp3quran.net/ar/149"
+  },
+  {
+    "name": "العشري عمران",
+    "page_url": "https://www.mp3quran.net/ar/15"
+  },
+  {
+    "name": "محمد المنشد",
+    "page_url": "https://www.mp3quran.net/ar/150"
+  },
+  {
+    "name": "محمود الشيمي",
+    "page_url": "https://www.mp3quran.net/ar/151"
+  },
+  {
+    "name": "ياسر سلامة",
+    "page_url": "https://www.mp3quran.net/ar/152"
+  },
+  {
+    "name": "أخيل عبدالحي روا",
+    "page_url": "https://www.mp3quran.net/ar/153"
+  },
+  {
+    "name": "أستاذ زامري",
+    "page_url": "https://www.mp3quran.net/ar/154"
+  },
+  {
+    "name": "خالد المهنا",
+    "page_url": "https://www.mp3quran.net/ar/159"
+  },
+  {
+    "name": "العيون الكوشي",
+    "page_url": "https://www.mp3quran.net/ar/16"
+  },
+  {
+    "name": "عادل الكلباني",
+    "page_url": "https://www.mp3quran.net/ar/160"
+  },
+  {
+    "name": "موسى بلال",
+    "page_url": "https://www.mp3quran.net/ar/161"
+  },
+  {
+    "name": "حسين آل الشيخ",
+    "page_url": "https://www.mp3quran.net/ar/162"
+  },
+  {
+    "name": "حاتم فريد الواعر",
+    "page_url": "https://www.mp3quran.net/ar/163"
+  },
+  {
+    "name": "إبراهيم الجرمي",
+    "page_url": "https://www.mp3quran.net/ar/164"
+  },
+  {
+    "name": "محمود الرفاعي",
+    "page_url": "https://www.mp3quran.net/ar/165"
+  },
+  {
+    "name": "ناصر العبيد",
+    "page_url": "https://www.mp3quran.net/ar/166"
+  },
+  {
+    "name": "واصل المذن",
+    "page_url": "https://www.mp3quran.net/ar/167"
+  },
+  {
+    "name": "توفيق الصايغ",
+    "page_url": "https://www.mp3quran.net/ar/17"
+  },
+  {
+    "name": "إبراهيم الدوسري",
+    "page_url": "https://www.mp3quran.net/ar/178"
+  },
+  {
+    "name": "جمال شاكر عبدالله",
+    "page_url": "https://www.mp3quran.net/ar/18"
+  },
+  {
+    "name": "جمعان العصيمي",
+    "page_url": "https://www.mp3quran.net/ar/181"
+  },
+  {
+    "name": "رضية عبدالرحمن",
+    "page_url": "https://www.mp3quran.net/ar/183"
+  },
+  {
+    "name": "رقية سولونق",
+    "page_url": "https://www.mp3quran.net/ar/184"
+  },
+  {
+    "name": "سابينة مامات",
+    "page_url": "https://www.mp3quran.net/ar/185"
+  },
+  {
+    "name": "سيدين عبدالرحمن",
+    "page_url": "https://www.mp3quran.net/ar/187"
+  },
+  {
+    "name": "عبدالغني عبدالله",
+    "page_url": "https://www.mp3quran.net/ar/188"
+  },
+  {
+    "name": "عبدالله فهمي",
+    "page_url": "https://www.mp3quran.net/ar/189"
+  },
+  {
+    "name": "حمد الدغريري",
+    "page_url": "https://www.mp3quran.net/ar/19"
+  },
+  {
+    "name": "محمد الحافظ",
+    "page_url": "https://www.mp3quran.net/ar/190"
+  },
+  {
+    "name": "محمد حفص علي",
+    "page_url": "https://www.mp3quran.net/ar/191"
+  },
+  {
+    "name": "محمد خير النور",
+    "page_url": "https://www.mp3quran.net/ar/192"
+  },
+  {
+    "name": "يوسف بن نوح أحمد",
+    "page_url": "https://www.mp3quran.net/ar/193"
+  },
+  {
+    "name": "جمال الدين الزيلعي",
+    "page_url": "https://www.mp3quran.net/ar/194"
+  },
+  {
+    "name": "معيض الحارثي",
+    "page_url": "https://www.mp3quran.net/ar/197"
+  },
+  {
+    "name": "محمد رشاد الشريف",
+    "page_url": "https://www.mp3quran.net/ar/198"
+  },
+  {
+    "name": "إبراهيم الجبرين",
+    "page_url": "https://www.mp3quran.net/ar/2"
+  },
+  {
+    "name": "خالد الجليل",
+    "page_url": "https://www.mp3quran.net/ar/20"
+  },
+  {
+    "name": "أحمد الطرابلسي",
+    "page_url": "https://www.mp3quran.net/ar/201"
+  },
+  {
+    "name": "عبدالله الكندري",
+    "page_url": "https://www.mp3quran.net/ar/202"
+  },
+  {
+    "name": "أحمد عامر",
+    "page_url": "https://www.mp3quran.net/ar/203"
+  },
+  {
+    "name": "إبراهيم السعدان",
+    "page_url": "https://www.mp3quran.net/ar/204"
+  },
+  {
+    "name": "أحمد الحذيفي",
+    "page_url": "https://www.mp3quran.net/ar/205"
+  },
+  {
+    "name": "محمد عثمان خان",
+    "page_url": "https://www.mp3quran.net/ar/206"
+  },
+  {
+    "name": "يوسف الدغوش",
+    "page_url": "https://www.mp3quran.net/ar/207"
+  },
+  {
+    "name": "الدوكالي محمد العالم",
+    "page_url": "https://www.mp3quran.net/ar/208"
+  },
+  {
+    "name": "وشيار حيدر اربيلي",
+    "page_url": "https://www.mp3quran.net/ar/209"
+  },
+  {
+    "name": "خالد القحطاني",
+    "page_url": "https://www.mp3quran.net/ar/21"
+  },
+  {
+    "name": "الفاتح محمد الزبير",
+    "page_url": "https://www.mp3quran.net/ar/211"
+  },
+  {
+    "name": "محمد برهجي",
+    "page_url": "https://www.mp3quran.net/ar/21181"
+  },
+  {
+    "name": "يوسف العيدروس",
+    "page_url": "https://www.mp3quran.net/ar/21182"
+  },
+  {
+    "name": "حسن الدغريري",
+    "page_url": "https://www.mp3quran.net/ar/21183"
+  },
+  {
+    "name": "محمد الفقيه",
+    "page_url": "https://www.mp3quran.net/ar/21184"
+  },
+  {
+    "name": "جنيد آدم عبدالله",
+    "page_url": "https://www.mp3quran.net/ar/21186"
+  },
+  {
+    "name": "خالد الزيادي",
+    "page_url": "https://www.mp3quran.net/ar/21187"
+  },
+  {
+    "name": "الوليد الشمسان",
+    "page_url": "https://www.mp3quran.net/ar/21188"
+  },
+  {
+    "name": "إبراهيم الشهري",
+    "page_url": "https://www.mp3quran.net/ar/21191"
+  },
+  {
+    "name": "طارق عبدالغني دعوب",
+    "page_url": "https://www.mp3quran.net/ar/212"
+  },
+  {
+    "name": "عثمان الأنصاري",
+    "page_url": "https://www.mp3quran.net/ar/216"
+  },
+  {
+    "name": "بندر بليله",
+    "page_url": "https://www.mp3quran.net/ar/217"
+  },
+  {
+    "name": "خالد الشريمي",
+    "page_url": "https://www.mp3quran.net/ar/218"
+  },
+  {
+    "name": "وديع اليمني",
+    "page_url": "https://www.mp3quran.net/ar/219"
+  },
+  {
+    "name": "خالد عبدالكافي",
+    "page_url": "https://www.mp3quran.net/ar/22"
+  },
+  {
+    "name": "رعد محمد الكردي",
+    "page_url": "https://www.mp3quran.net/ar/221"
+  },
+  {
+    "name": "عبدالرحمن العوسي",
+    "page_url": "https://www.mp3quran.net/ar/225"
+  },
+  {
+    "name": "خالد الغامدي",
+    "page_url": "https://www.mp3quran.net/ar/226"
+  },
+  {
+    "name": "رمضان شكور",
+    "page_url": "https://www.mp3quran.net/ar/227"
+  },
+  {
+    "name": "عبدالمجيد الأركاني",
+    "page_url": "https://www.mp3quran.net/ar/228"
+  },
+  {
+    "name": "محمد خليل القارئ",
+    "page_url": "https://www.mp3quran.net/ar/229"
+  },
+  {
+    "name": "خالد الوهيبي",
+    "page_url": "https://www.mp3quran.net/ar/23"
+  },
+  {
+    "name": "رامي الدعيس",
+    "page_url": "https://www.mp3quran.net/ar/230"
+  },
+  {
+    "name": "هزاع البلوشي",
+    "page_url": "https://www.mp3quran.net/ar/231"
+  },
+  {
+    "name": "عبدالرحمن الماجد",
+    "page_url": "https://www.mp3quran.net/ar/236"
+  },
+  {
+    "name": "مروان العكري",
+    "page_url": "https://www.mp3quran.net/ar/237"
+  },
+  {
+    "name": "خليفة الطنيجي",
+    "page_url": "https://www.mp3quran.net/ar/24"
+  },
+  {
+    "name": "سلمان العتيبي",
+    "page_url": "https://www.mp3quran.net/ar/240"
+  },
+  {
+    "name": "محمد رفعت",
+    "page_url": "https://www.mp3quran.net/ar/241"
+  },
+  {
+    "name": "عبدالله الموسى",
+    "page_url": "https://www.mp3quran.net/ar/243"
+  },
+  {
+    "name": "عبدالله الخلف",
+    "page_url": "https://www.mp3quran.net/ar/244"
+  },
+  {
+    "name": "منصور السالمي",
+    "page_url": "https://www.mp3quran.net/ar/245"
+  },
+  {
+    "name": "صلاح مصلي",
+    "page_url": "https://www.mp3quran.net/ar/246"
+  },
+  {
+    "name": "خالد الشارخ",
+    "page_url": "https://www.mp3quran.net/ar/247"
+  },
+  {
+    "name": "ناصر العصفور",
+    "page_url": "https://www.mp3quran.net/ar/248"
+  },
+  {
+    "name": "داود حمزة",
+    "page_url": "https://www.mp3quran.net/ar/25"
+  },
+  {
+    "name": "محمد البخيت",
+    "page_url": "https://www.mp3quran.net/ar/250"
+  },
+  {
+    "name": "ناصر الماجد",
+    "page_url": "https://www.mp3quran.net/ar/251"
+  },
+  {
+    "name": "أحمد السويلم",
+    "page_url": "https://www.mp3quran.net/ar/252"
+  },
+  {
+    "name": "إسلام صبحي",
+    "page_url": "https://www.mp3quran.net/ar/253"
+  },
+  {
+    "name": "بدر التركي",
+    "page_url": "https://www.mp3quran.net/ar/254"
+  },
+  {
+    "name": "هيثم الجدعاني",
+    "page_url": "https://www.mp3quran.net/ar/255"
+  },
+  {
+    "name": "أحمد خليل شاهين",
+    "page_url": "https://www.mp3quran.net/ar/256"
+  },
+  {
+    "name": "سعد المقرن",
+    "page_url": "https://www.mp3quran.net/ar/257"
+  },
+  {
+    "name": "أحمد النفيس",
+    "page_url": "https://www.mp3quran.net/ar/259"
+  },
+  {
+    "name": "رشيد إفراد",
+    "page_url": "https://www.mp3quran.net/ar/26"
+  },
+  {
+    "name": "عمر الدريويز",
+    "page_url": "https://www.mp3quran.net/ar/260"
+  },
+  {
+    "name": "عبدالعزيز العسيري",
+    "page_url": "https://www.mp3quran.net/ar/263"
+  },
+  {
+    "name": "يونس اسويلص",
+    "page_url": "https://www.mp3quran.net/ar/264"
+  },
+  {
+    "name": "أحمد ديبان",
+    "page_url": "https://www.mp3quran.net/ar/265"
+  },
+  {
+    "name": "عبدالله كامل",
+    "page_url": "https://www.mp3quran.net/ar/267"
+  },
+  {
+    "name": "بيشه وا قادر الكردي",
+    "page_url": "https://www.mp3quran.net/ar/268"
+  },
+  {
+    "name": "رشيد بلعالية",
+    "page_url": "https://www.mp3quran.net/ar/27"
+  },
+  {
+    "name": "نذير المالكي",
+    "page_url": "https://www.mp3quran.net/ar/271"
+  },
+  {
+    "name": "عكاشة كميني",
+    "page_url": "https://www.mp3quran.net/ar/272"
+  },
+  {
+    "name": "هيثم الدخين",
+    "page_url": "https://www.mp3quran.net/ar/273"
+  },
+  {
+    "name": "محمد أبو سنينة",
+    "page_url": "https://www.mp3quran.net/ar/274"
+  },
+  {
+    "name": "محمد الأمين قنيوة",
+    "page_url": "https://www.mp3quran.net/ar/275"
+  },
+  {
+    "name": "محمود عبدالحكم",
+    "page_url": "https://www.mp3quran.net/ar/277"
+  },
+  {
+    "name": "أحمد عيسى المعصراوي",
+    "page_url": "https://www.mp3quran.net/ar/278"
+  },
+  {
+    "name": "إبراهيم كشيدان",
+    "page_url": "https://www.mp3quran.net/ar/279"
+  },
+  {
+    "name": "زكريا حمامة",
+    "page_url": "https://www.mp3quran.net/ar/28"
+  },
+  {
+    "name": "هاشم أبو دلال",
+    "page_url": "https://www.mp3quran.net/ar/280"
+  },
+  {
+    "name": "فؤاد الخامري",
+    "page_url": "https://www.mp3quran.net/ar/281"
+  },
+  {
+    "name": "سيد أحمد هاشمي",
+    "page_url": "https://www.mp3quran.net/ar/282"
+  },
+  {
+    "name": "خالد كريم محمدي",
+    "page_url": "https://www.mp3quran.net/ar/283"
+  },
+  {
+    "name": "مال الله عبدالرحمن الجابر",
+    "page_url": "https://www.mp3quran.net/ar/284"
+  },
+  {
+    "name": "سلمان الصديق",
+    "page_url": "https://www.mp3quran.net/ar/285"
+  },
+  {
+    "name": "حسن صالح",
+    "page_url": "https://www.mp3quran.net/ar/286"
+  },
+  {
+    "name": "عبدالرحمن الشحات",
+    "page_url": "https://www.mp3quran.net/ar/287"
+  },
+  {
+    "name": "عيسى عمر سناكو",
+    "page_url": "https://www.mp3quran.net/ar/288"
+  },
+  {
+    "name": "هارون بقائي",
+    "page_url": "https://www.mp3quran.net/ar/289"
+  },
+  {
+    "name": "عبدالله بخاري",
+    "page_url": "https://www.mp3quran.net/ar/29"
+  },
+  {
+    "name": "صالح القريشي",
+    "page_url": "https://www.mp3quran.net/ar/290"
+  },
+  {
+    "name": "إبراهيم العسيري",
+    "page_url": "https://www.mp3quran.net/ar/3"
+  },
+  {
+    "name": "سعد الغامدي",
+    "page_url": "https://www.mp3quran.net/ar/30"
+  },
+  {
+    "name": "صالح الشمراني",
+    "page_url": "https://www.mp3quran.net/ar/300"
+  },
+  {
+    "name": "فيصل الهاجري",
+    "page_url": "https://www.mp3quran.net/ar/301"
+  },
+  {
+    "name": "أنس العمادي",
+    "page_url": "https://www.mp3quran.net/ar/302"
+  },
+  {
+    "name": "عبدالملك العسكر",
+    "page_url": "https://www.mp3quran.net/ar/303"
+  },
+  {
+    "name": "عبدالكريم الحازمي",
+    "page_url": "https://www.mp3quran.net/ar/304"
+  },
+  {
+    "name": "هشام الهراز",
+    "page_url": "https://www.mp3quran.net/ar/305"
+  },
+  {
+    "name": "عبدالله المشعل",
+    "page_url": "https://www.mp3quran.net/ar/306"
+  },
+  {
+    "name": "عبدالعزيز سحيم",
+    "page_url": "https://www.mp3quran.net/ar/307"
+  },
+  {
+    "name": "سعود الشريم",
+    "page_url": "https://www.mp3quran.net/ar/31"
+  },
+  {
+    "name": "سهل ياسين",
+    "page_url": "https://www.mp3quran.net/ar/32"
+  },
+  {
+    "name": "زكي داغستاني",
+    "page_url": "https://www.mp3quran.net/ar/33"
+  },
+  {
+    "name": "سامي الحسن",
+    "page_url": "https://www.mp3quran.net/ar/34"
+  },
+  {
+    "name": "سامي الدوسري",
+    "page_url": "https://www.mp3quran.net/ar/35"
+  },
+  {
+    "name": "سيد رمضان",
+    "page_url": "https://www.mp3quran.net/ar/36"
+  },
+  {
+    "name": "شعبان الصياد",
+    "page_url": "https://www.mp3quran.net/ar/37"
+  },
+  {
+    "name": "شيرزاد عبدالرحمن طاهر",
+    "page_url": "https://www.mp3quran.net/ar/38"
+  },
+  {
+    "name": "صابر عبدالحكم",
+    "page_url": "https://www.mp3quran.net/ar/39"
+  },
+  {
+    "name": "شيخ أبو بكر الشاطري",
+    "page_url": "https://www.mp3quran.net/ar/4"
+  },
+  {
+    "name": "صالح الصاهود",
+    "page_url": "https://www.mp3quran.net/ar/40"
+  },
+  {
+    "name": "صالح آل طالب",
+    "page_url": "https://www.mp3quran.net/ar/41"
+  },
+  {
+    "name": "صالح الهبدان",
+    "page_url": "https://www.mp3quran.net/ar/42"
+  },
+  {
+    "name": "صلاح البدير",
+    "page_url": "https://www.mp3quran.net/ar/43"
+  },
+  {
+    "name": "صلاح الهاشم",
+    "page_url": "https://www.mp3quran.net/ar/44"
+  },
+  {
+    "name": "صلاح بو خاطر",
+    "page_url": "https://www.mp3quran.net/ar/46"
+  },
+  {
+    "name": "مختار الحاج",
+    "page_url": "https://www.mp3quran.net/ar/47"
+  },
+  {
+    "name": "عادل ريان",
+    "page_url": "https://www.mp3quran.net/ar/48"
+  },
+  {
+    "name": "عبدالبارئ الثبيتي",
+    "page_url": "https://www.mp3quran.net/ar/49"
+  },
+  {
+    "name": "أحمد بن علي العجمي",
+    "page_url": "https://www.mp3quran.net/ar/5"
+  },
+  {
+    "name": "عبدالبارئ محمد",
+    "page_url": "https://www.mp3quran.net/ar/50"
+  },
+  {
+    "name": "عبدالباسط عبدالصمد",
+    "page_url": "https://www.mp3quran.net/ar/51"
+  },
+  {
+    "name": "عبدالرحمن السديس",
+    "page_url": "https://www.mp3quran.net/ar/54"
+  },
+  {
+    "name": "عبدالعزيز الأحمد",
+    "page_url": "https://www.mp3quran.net/ar/55"
+  },
+  {
+    "name": "عبدالعزيز الزهراني",
+    "page_url": "https://www.mp3quran.net/ar/56"
+  },
+  {
+    "name": "عبدالله البريمي",
+    "page_url": "https://www.mp3quran.net/ar/57"
+  },
+  {
+    "name": "عبدالله البعيجان",
+    "page_url": "https://www.mp3quran.net/ar/58"
+  },
+  {
+    "name": "عبدالله المطرود",
+    "page_url": "https://www.mp3quran.net/ar/59"
+  },
+  {
+    "name": "أحمد الحواشي",
+    "page_url": "https://www.mp3quran.net/ar/6"
+  },
+  {
+    "name": "عبدالله بصفر",
+    "page_url": "https://www.mp3quran.net/ar/60"
+  },
+  {
+    "name": "عبدالله خياط",
+    "page_url": "https://www.mp3quran.net/ar/61"
+  },
+  {
+    "name": "عبدالله عواد الجهني",
+    "page_url": "https://www.mp3quran.net/ar/62"
+  },
+  {
+    "name": "عبدالله غيلان",
+    "page_url": "https://www.mp3quran.net/ar/63"
+  },
+  {
+    "name": "عبدالرشيد صوفي",
+    "page_url": "https://www.mp3quran.net/ar/64"
+  },
+  {
+    "name": "عبدالمحسن الحارثي",
+    "page_url": "https://www.mp3quran.net/ar/66"
+  },
+  {
+    "name": "عبدالمحسن القاسم",
+    "page_url": "https://www.mp3quran.net/ar/67"
+  },
+  {
+    "name": "عبدالمحسن العسكر",
+    "page_url": "https://www.mp3quran.net/ar/68"
+  },
+  {
+    "name": "عبدالمحسن العبيكان",
+    "page_url": "https://www.mp3quran.net/ar/69"
+  },
+  {
+    "name": "أحمد سعود",
+    "page_url": "https://www.mp3quran.net/ar/7"
+  },
+  {
+    "name": "عبدالهادي أحمد كناكري",
+    "page_url": "https://www.mp3quran.net/ar/70"
+  },
+  {
+    "name": "عبدالودود حنيف",
+    "page_url": "https://www.mp3quran.net/ar/71"
+  },
+  {
+    "name": "عبدالولي الأركاني",
+    "page_url": "https://www.mp3quran.net/ar/72"
+  },
+  {
+    "name": "علي أبو هاشم",
+    "page_url": "https://www.mp3quran.net/ar/73"
+  },
+  {
+    "name": "علي بن عبدالرحمن الحذيفي",
+    "page_url": "https://www.mp3quran.net/ar/74"
+  },
+  {
+    "name": "علي جابر",
+    "page_url": "https://www.mp3quran.net/ar/76"
+  },
+  {
+    "name": "علي حجاج السويسي",
+    "page_url": "https://www.mp3quran.net/ar/77"
+  },
+  {
+    "name": "عماد زهير حافظ",
+    "page_url": "https://www.mp3quran.net/ar/78"
+  },
+  {
+    "name": "عبدالعزيز التركي",
+    "page_url": "https://www.mp3quran.net/ar/79"
+  },
+  {
+    "name": "أحمد صابر",
+    "page_url": "https://www.mp3quran.net/ar/8"
+  },
+  {
+    "name": "عمر القزابري",
+    "page_url": "https://www.mp3quran.net/ar/80"
+  },
+  {
+    "name": "فارس عباد",
+    "page_url": "https://www.mp3quran.net/ar/81"
+  },
+  {
+    "name": "فهد العتيبي",
+    "page_url": "https://www.mp3quran.net/ar/82"
+  },
+  {
+    "name": "فهد الكندري",
+    "page_url": "https://www.mp3quran.net/ar/83"
+  },
+  {
+    "name": "فواز الكعبي",
+    "page_url": "https://www.mp3quran.net/ar/84"
+  },
+  {
+    "name": "لافي العوني",
+    "page_url": "https://www.mp3quran.net/ar/85"
+  },
+  {
+    "name": "ناصر القطامي",
+    "page_url": "https://www.mp3quran.net/ar/86"
+  },
+  {
+    "name": "نبيل الرفاعي",
+    "page_url": "https://www.mp3quran.net/ar/87"
+  },
+  {
+    "name": "نعمة الحسان",
+    "page_url": "https://www.mp3quran.net/ar/88"
+  },
+  {
+    "name": "هاني الرفاعي",
+    "page_url": "https://www.mp3quran.net/ar/89"
+  },
+  {
+    "name": "أحمد نعينع",
+    "page_url": "https://www.mp3quran.net/ar/9"
+  },
+  {
+    "name": "وليد الدليمي",
+    "page_url": "https://www.mp3quran.net/ar/90"
+  },
+  {
+    "name": "وليد النائحي",
+    "page_url": "https://www.mp3quran.net/ar/91"
+  },
+  {
+    "name": "ياسر الدوسري",
+    "page_url": "https://www.mp3quran.net/ar/92"
+  },
+  {
+    "name": "ياسر القرشي",
+    "page_url": "https://www.mp3quran.net/ar/93"
+  },
+  {
+    "name": "ياسر الفيلكاوي",
+    "page_url": "https://www.mp3quran.net/ar/94"
+  },
+  {
+    "name": "ياسر المزروعي ",
+    "page_url": "https://www.mp3quran.net/ar/95"
+  },
+  {
+    "name": "يحيى حوا",
+    "page_url": "https://www.mp3quran.net/ar/96"
+  },
+  {
+    "name": "يوسف الشويعي",
+    "page_url": "https://www.mp3quran.net/ar/97"
+  },
+  {
+    "name": "عبدالله عبدل",
+    "page_url": "https://www.mp3quran.net/ar/98"
+  }
+]
