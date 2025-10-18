@@ -20,6 +20,9 @@
 
         <toolkit:MediaElement Source="https://server8.mp3quran.net/download/bna/001.mp3"
                               ShouldShowPlaybackControls="True"
+                              HorizontalOptions="Fill"
+                              HeightRequest="120"
+                              ShouldAutoPlay="True"
                               Grid.Row="1"/>
     </Grid>
 </ContentPage>

@@ -9,7 +9,23 @@
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new MainPage()) { Title = "quran.mobile" };
+            var window = new Window(new MainPage()) { Title = "القرآن الكريم" };
+
+            window.Width = 400;
+            window.Height = 700;
+            window.MinimumWidth = 400;
+            window.MinimumHeight = 400;
+
+            // get screen size
+            var displayInfo = DeviceDisplay.Current.MainDisplayInfo;
+            var screenWidth = displayInfo.Width / displayInfo.Density;
+            var screenHeight = displayInfo.Height / displayInfo.Density;
+
+            // move window to center of screen
+            window.X = (screenWidth - window.Width) / 2;
+            window.Y = (screenHeight - window.Height) / 2;
+
+            return window;
         }
     }
 }
