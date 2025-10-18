@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Components;
+using Microsoft.JSInterop;
+using System.Text;
 using System.Text.Json;
 
 namespace quran.mobile.Components.Pages
@@ -11,6 +13,9 @@ namespace quran.mobile.Components.Pages
 
     public partial class Home : ComponentBase
     {
+        [Inject]
+        public IJSRuntime JS { get; set; } = default!;
+
         const string alphabet = "ابتثجحخدذرزسشصضطظعغفقكلمنهوي";
         protected List<Reader> readers { get; private set; } = new();
         string searchText = string.Empty;
@@ -46,6 +51,24 @@ namespace quran.mobile.Components.Pages
             }) ?? new List<Reader>();
 
             readers.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.OrdinalIgnoreCase));
+        }
+
+        string NormalizeText(string input)
+        {
+            if (string.IsNullOrWhiteSpace(input)) { return string.Empty; }
+            var normalized = input.Normalize(NormalizationForm.FormD).Replace("ى", "ي");
+            return normalized;
+        }
+
+        public async Task ShowUrlAsync(string url)
+        {
+            if (string.IsNullOrWhiteSpace(url))
+            {
+                await JS.InvokeVoidAsync("alert", "No URL available for this reader.");
+                return;
+            }
+
+            await JS.InvokeVoidAsync("alert", url);
         }
     }
 }

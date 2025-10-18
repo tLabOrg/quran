@@ -10,7 +10,13 @@
 
 @foreach (var letter in alphabet)
 {
-    var matching = readers.Where(r => r.Name[0] == letter && r.Name.Contains(searchText)).ToList();
+    var matching = readers.Where(r => 
+    {
+        var term = NormalizeText(searchText);
+        var newName = NormalizeText(r.Name);
+
+        return newName[0] == letter && newName.Contains(term); 
+    }).ToList();
     @if(!matching.Any())
     {
         continue;
@@ -21,7 +27,7 @@
         <ul class="reader-list">
             @foreach (var reader in matching)
             {
-                <li class="reader-item">
+                <li class="reader-item" @onclick="@(() => ShowUrlAsync(reader.URL))" style="cursor:pointer">
                     <div class="reader-name">@reader.Name</div>
                 </li>
             }
