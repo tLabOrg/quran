@@ -1,34 +1,37 @@
 ﻿@page "/"
 
+<button class="menu-button" @onclick="@(async () => await OnSettingsPressed())">☰</button>
+
 <div class="header">
-    <h1>القرآن الكريم</h1>
+    <h1>المصحف المرتَّل</h1>
+
     <input type="text" class="search-input"
-           id="searchInput" placeholder="ابحث عن قارئ..."
-           @bind="searchText"
+           id="searchInput" placeholder="ابحث عن قارئ ..."
+           @bind="State.searchText"
            @bind:event="oninput">
 </div>
 
 @foreach (var letter in alphabet)
 {
-    var matching = readers.Where(r => 
+    var matching = State.data.Reciters.Where(r =>
     {
-        var term = NormalizeText(searchText);
+        var term = NormalizeText(State.searchText);
         var newName = NormalizeText(r.Name);
 
-        return newName[0] == letter && newName.Contains(term); 
+        return newName[0] == letter && newName.Contains(term);
     }).ToList();
-    @if(!matching.Any())
+    @if (!matching.Any())
     {
         continue;
     }
 
     <div class="letter-group">
         <div class="letter-header">@(letter.ToString())</div>
-        <ul class="reader-list">
-            @foreach (var reader in matching)
+        <ul class="reciter-list">
+            @foreach (var reciter in matching)
             {
-                <li class="reader-item" @onclick="@(() => ShowUrlAsync(reader.URL))" style="cursor:pointer">
-                    <div class="reader-name">@reader.Name</div>
+                <li class="reciter-item" @onclick="@(() => OnReciterSelected(reciter))" style="cursor:pointer">
+                    <div class="reciter-name">@reciter.Name</div>
                 </li>
             }
         </ul>

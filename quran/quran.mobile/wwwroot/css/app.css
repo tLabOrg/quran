@@ -9,3 +9,115 @@ body {
 #app {
     max-width: 1200px;
 }
+
+.back-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: #f8f9fa;
+    color: #1a1a1a;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+    .back-button:hover {
+        background-color: #e9ecef;
+    }
+
+.menu-button {
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    background-color: #f8f9fa;
+    color: #1a1a1a;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+    border: none;
+}
+
+    .menu-button:hover {
+        background-color: #e9ecef;
+    }
+
+.header {
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+    .header h1 {
+        color: #1a1a1a;
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin: 0 0 1.5rem 0;
+    }
+
+.search-input {
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+    margin: 0 auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+    .search-input:focus {
+        outline: none;
+        border-color: #2c5f7c;
+    }
+
+.letter-group {
+    padding: 0;
+    margin-bottom: 3rem;
+}
+
+.letter-header {
+    background-color: #DFF4E9; /* Very soft green */
+    color: #1B4637; /* Deep green text for contrast */
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    display: inline-block;
+    min-width: 60px;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.04); /* refined edge */
+}
+
+.reciter-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reciter-item {
+    padding: 1rem 1.5rem;
+    margin-bottom: 0.6rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+}
+
+    .reciter-item:hover {
+        background-color: #e9ecef;
+        transform: translateX(-4px);
+    }
+
+.reciter-name {
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    font-weight: 500;
+}

@@ -18,8 +18,7 @@
             </BlazorWebView.RootComponents>
         </BlazorWebView>
 
-        <toolkit:MediaElement Source="https://server8.mp3quran.net/download/bna/001.mp3"
-                              ShouldShowPlaybackControls="True"
+        <toolkit:MediaElement x:Name="player" ShouldShowPlaybackControls="True"
                               HorizontalOptions="Fill"
                               HeightRequest="120"
                               ShouldAutoPlay="True"

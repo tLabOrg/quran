@@ -25,7 +25,7 @@
 		<ApplicationTitle>quran.mobile</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>org.arbweb.quran</ApplicationId>
+		<ApplicationId>org.arbweb.moratal</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
@@ -67,7 +67,7 @@
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.10" />
     </ItemGroup>
 
-  <ItemGroup>
-    <EmbeddedResource Include="Data\readers.json" />
-  </ItemGroup>
+	<ItemGroup>
+		<EmbeddedResource Include="Data\data.json" />
+	</ItemGroup>
 </Project>

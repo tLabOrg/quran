@@ -1,40 +1,47 @@
 ﻿using Microsoft.AspNetCore.Components;
-using Microsoft.JSInterop;
 using System.Text;
 using System.Text.Json;
 
 namespace quran.mobile.Components.Pages
 {
-    public class Reader
+    public class Surah
     {
+        public int Index { get; set; } = 0;
         public string Name { get; set; } = string.Empty;
-        public string URL { get; set; } = string.Empty;
     }
 
-    public partial class Home : ComponentBase
+    public class Reciter
+    {
+        public int Id { get; set; } = 0;
+        public string Name { get; set; } = string.Empty;
+        public string Server { get; set; } = string.Empty;
+        public List<int> Surahs { get; set; } = new List<int>();
+    }
+
+    public class Data
+    {
+        public List<Surah> Sorahs { get; set; } = new();
+        public List<Reciter> Reciters { get; set; } = new();
+    }
+
+    public partial class Home
     {
         [Inject]
-        public IJSRuntime JS { get; set; } = default!;
+        NavigationManager Nav { get; set; }
 
         const string alphabet = "ابتثجحخدذرزسشصضطظعغفقكلمنهوي";
-        protected List<Reader> readers { get; private set; } = new();
-        string searchText = string.Empty;
+        //static string placeHolder { get { return "ابحث عن " + (State.isReciterSelected ? "سورة" : "قارئ") + " ..."; } }
 
         protected override async Task OnInitializedAsync()
         {
-            await LoadReadersFromEmbeddedJsonAsync();
+            await LoadData();
         }
 
-        private async Task LoadReadersFromEmbeddedJsonAsync()
+        async Task LoadData()
         {
             var assembly = typeof(Home).Assembly;
+            var resourceName = "quran.mobile.Data.data.json";
 
-            // Use the embedded resource name: <DefaultNamespace>.<folder>.<file>
-            // Adjust if your project's root namespace differs.
-            var resourceName = "quran.mobile.Data.readers.json";
-
-            // If this returns null, inspect available names:
-            // var names = assembly.GetManifestResourceNames();
             using var stream = assembly.GetManifestResourceStream(resourceName);
             if (stream == null)
             {
@@ -45,12 +52,8 @@ namespace quran.mobile.Components.Pages
             using var sr = new StreamReader(stream);
             var json = await sr.ReadToEndAsync();
 
-            readers = JsonSerializer.Deserialize<List<Reader>>(json, new JsonSerializerOptions
-            {
-                PropertyNameCaseInsensitive = true
-            }) ?? new List<Reader>();
-
-            readers.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.OrdinalIgnoreCase));
+            State.data = JsonSerializer.Deserialize<Data>(json) ?? new Data();
+            State.data.Reciters.Sort((a, b) => string.Compare(a.Name, b.Name, StringComparison.OrdinalIgnoreCase));
         }
 
         string NormalizeText(string input)
@@ -60,15 +63,17 @@ namespace quran.mobile.Components.Pages
             return normalized;
         }
 
-        public async Task ShowUrlAsync(string url)
+        async Task OnReciterSelected(Reciter reciter)
         {
-            if (string.IsNullOrWhiteSpace(url))
-            {
-                await JS.InvokeVoidAsync("alert", "No URL available for this reader.");
-                return;
-            }
+            State.selectedReciter = reciter;
+            State.searchText = string.Empty;
 
-            await JS.InvokeVoidAsync("alert", url);
+            Nav.NavigateTo("surahs");
+        }
+
+        async Task OnSettingsPressed()
+        {
+            Nav.NavigateTo("settins");
         }
     }
 }

@@ -1,0 +1,37 @@
+﻿@page "/surahs"
+
+<a href="#" class="back-button" @onclick="@(async () => await OnBackPressed())">→ رجوع</a>
+<button class="menu-button" @onclick="@(async () => await OnSettingsPressed())">☰</button>
+
+<div class="header">
+    <div style="height:0.5rem"></div>
+
+    <input type="text" class="search-input"
+           id="searchInput" placeholder="ابحث عن سورة ..."
+           @bind="State.searchText"
+           @bind:event="oninput">
+</div>
+
+<div class="letter-group">
+    <ul class="reciter-list">
+        @{
+            var matching = State.data.Sorahs.Where(s =>
+            {
+                var term = NormalizeText(State.searchText);
+                var newName = NormalizeText(s.Name);
+
+                return newName.Contains(term);
+            }).ToList();
+
+            foreach (var surah in matching)
+            {
+                if (State.selectedReciter.Surahs.Contains(surah.Index))
+                {
+                    <li class="reciter-item" @onclick="@(async () => await OnSorahSelected(surah))" style="cursor:pointer">
+                        <div class="reciter-name">@(surah.Index + "- " + surah.Name)</div>
+                    </li>
+                }
+            }
+        }
+    </ul>
+</div>
