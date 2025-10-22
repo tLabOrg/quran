@@ -1,0 +1,178 @@
+﻿container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fafafa;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.header {
+    padding: 1rem 0;
+    margin-bottom: 2rem;
+}
+
+.back-button {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    background-color: white;
+    color: #1a1a1a;
+    padding: 0.6rem 1.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s ease;
+}
+
+    .back-button:hover {
+        background-color: #f0f0f0;
+    }
+
+.content-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.app-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-info {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.app-name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 0.25rem;
+}
+
+.app-version {
+    font-size: 1rem;
+    color: #666;
+}
+
+.app-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-top: 1rem;
+    padding: 0 1rem;
+}
+
+.actions-section {
+    margin-bottom: 2rem;
+}
+
+.section-title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 1rem;
+}
+
+.action-item {
+    background-color: white;
+    padding: 1rem 1.5rem;
+    margin-bottom: 0.75rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid #e9ecef;
+}
+
+    .action-item:hover {
+        background-color: #f8f9fa;
+        transform: translateX(-2px);
+    }
+
+    .action-item:active {
+        transform: scale(0.98);
+    }
+
+.action-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.action-icon {
+    font-size: 1.5rem;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.action-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #1a1a1a;
+}
+
+.action-subtitle {
+    font-size: 0.85rem;
+    color: #999;
+}
+
+.action-arrow {
+    color: #ccc;
+    font-size: 1.2rem;
+}
+
+.info-section {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    border: 1px solid #e9ecef;
+}
+
+.info-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+    .info-item:last-child {
+        border-bottom: none;
+    }
+
+.info-label {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.info-value {
+    font-size: 0.95rem;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+.footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #999;
+    font-size: 0.85rem;
+}
