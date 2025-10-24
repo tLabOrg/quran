@@ -118,6 +118,12 @@
     border-radius: 8px;
 }
 
+    .action-icon > svg {
+        width: 1.4rem;
+        height: 1.4rem;
+        fill: #6b8e7f
+    }
+
 .action-text {
     display: flex;
     flex-direction: column;

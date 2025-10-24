@@ -11,5 +11,10 @@ namespace quran.mobile.Components.Pages
         {
             Nav.NavigateTo("/");
         }
+
+        async Task OnChatPressed()
+        {
+            await Launcher.OpenAsync("https://wa.me/201031160910");
+        }
     }
 }

@@ -19,8 +19,7 @@
         </BlazorWebView>
 
         <toolkit:MediaElement x:Name="player" ShouldShowPlaybackControls="True"
-                              HorizontalOptions="Fill"
-                              HeightRequest="120"
+                              IsVisible="False"
                               ShouldAutoPlay="True"
                               Grid.Row="1"/>
     </Grid>
