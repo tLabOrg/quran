@@ -16,7 +16,7 @@
         <div class="actions-section">
             <div class="section-title">الدعم والمساعدة</div>
 
-            <a href="#" class="action-item" onclick="">
+            <a href="#" class="action-item" @onclick="@(async () => await OnSupportPressed())">
                 <div class="action-left">
                     <div class="action-icon">
                         <svg viewBox="0 0 640 640"><path d="M305 151.1L320 171.8L335 151.1C360 116.5 400.2 96 442.9 96C516.4 96 576 155.6 576 229.1L576 231.7C576 343.9 436.1 474.2 363.1 529.9C350.7 539.3 335.5 544 320 544C304.5 544 289.2 539.4 276.9 529.9C203.9 474.2 64 343.9 64 231.7L64 229.1C64 155.6 123.6 96 197.1 96C239.8 96 280 116.5 305 151.1z" /></svg>
@@ -42,7 +42,7 @@
                 <div class="action-arrow">←</div>
             </a>
 
-            <a href="#" class="action-item" onclick="">
+            <a href="#" class="action-item" @onclick="@(async () => await OnSharePressed())">
                 <div class="action-left">
                     <div class="action-icon">
                         <svg viewBox="0 0 640 640"><path d="M448 256C501 256 544 213 544 160C544 107 501 64 448 64C395 64 352 107 352 160C352 165.4 352.5 170.8 353.3 176L223.6 248.1C206.7 233.1 184.4 224 160 224C107 224 64 267 64 320C64 373 107 416 160 416C184.4 416 206.6 406.9 223.6 391.9L353.3 464C352.4 469.2 352 474.5 352 480C352 533 395 576 448 576C501 576 544 533 544 480C544 427 501 384 448 384C423.6 384 401.4 393.1 384.4 408.1L254.7 336C255.6 330.8 256 325.5 256 320C256 314.5 255.5 309.2 254.7 304L384.4 231.9C401.3 246.9 423.6 256 448 256z" /></svg>
@@ -50,6 +50,19 @@
                     <div class="action-text">
                         <div class="action-title">شارك التطبيق</div>
                         <div class="action-subtitle">أخبر أصدقاءك عن التطبيق</div>
+                    </div>
+                </div>
+                <div class="action-arrow">←</div>
+            </a>
+
+            <a href="#" class="action-item" @onclick="@(async () => await OnRatePressed())">
+                <div class="action-left">
+                    <div class="action-icon">
+                        <svg viewBox="0 0 640 640"><path d="M341.5 45.1C337.4 37.1 329.1 32 320.1 32C311.1 32 302.8 37.1 298.7 45.1L225.1 189.3L65.2 214.7C56.3 216.1 48.9 222.4 46.1 231C43.3 239.6 45.6 249 51.9 255.4L166.3 369.9L141.1 529.8C139.7 538.7 143.4 547.7 150.7 553C158 558.3 167.6 559.1 175.7 555L320.1 481.6L464.4 555C472.4 559.1 482.1 558.3 489.4 553C496.7 547.7 500.4 538.8 499 529.8L473.7 369.9L588.1 255.4C594.5 249 596.7 239.6 593.9 231C591.1 222.4 583.8 216.1 574.8 214.7L415 189.3L341.5 45.1z" /></svg>
+                    </div>
+                    <div class="action-text">
+                        <div class="action-title">أضف مراجعة</div>
+                        <div class="action-subtitle">قيم تجربتك مع التطبيق</div>
                     </div>
                 </div>
                 <div class="action-arrow">←</div>

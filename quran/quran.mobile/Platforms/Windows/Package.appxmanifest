@@ -6,13 +6,13 @@
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
   IgnorableNamespaces="uap rescap">
 
-  <Identity Name="maui-package-name-placeholder" Publisher="CN=User Name" Version="0.0.0.0" />
+  <Identity Name="moratal.arbweb.org" Publisher="CN=arbweb.org" Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="302FCE47-C304-43D2-9F7D-338F9467654E" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>$placeholder$</DisplayName>
-    <PublisherDisplayName>User Name</PublisherDisplayName>
+    <DisplayName>المصحف المرتل</DisplayName>
+    <PublisherDisplayName>arbweb.org</PublisherDisplayName>
     <Logo>$placeholder$.png</Logo>
   </Properties>
 
@@ -28,11 +28,10 @@
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="$targetentrypoint$">
       <uap:VisualElements
-        DisplayName="$placeholder$"
-        Description="$placeholder$"
+        DisplayName="المصحف المرتل"
         Square150x150Logo="$placeholder$.png"
         Square44x44Logo="$placeholder$.png"
-        BackgroundColor="transparent">
+        BackgroundColor="transparent" Description="تطبيق المصحف المرتل">
         <uap:DefaultTile Square71x71Logo="$placeholder$.png" Wide310x150Logo="$placeholder$.png" Square310x310Logo="$placeholder$.png" />
         <uap:SplashScreen Image="$placeholder$.png" />
       </uap:VisualElements>
