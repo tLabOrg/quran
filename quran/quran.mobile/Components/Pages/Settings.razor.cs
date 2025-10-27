@@ -6,7 +6,6 @@ namespace quran.mobile.Components.Pages
     {
         [Inject]
         NavigationManager Nav { get; set; }
-
         async Task OnBackPressed()
         {
             Nav.NavigateTo("/");
@@ -18,9 +17,9 @@ namespace quran.mobile.Components.Pages
 #if ANDROID
             url = "https://play.google.com/store/apps/details?id=org.arbweb.moratal";
 #elif IOS
-            url = "https://apps.apple.com/us/app/moratal/id310633997";
+            // url = "https://apps.apple.com/us/app/moratal/id000000000";
 #elif WINDOWS
-            url = "ms-windows-store://pdp/?productid=9NC0NPGCRXRH";
+            url = "ms-windows-store://pdp/?productid=9P4V496BSCWP";
 #endif
             await Launcher.OpenAsync(url);
         }
