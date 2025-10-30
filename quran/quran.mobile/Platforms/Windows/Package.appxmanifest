@@ -8,8 +8,7 @@
 
   <Identity
 	  Name="arbweb.org.Moratal"
-	  Publisher="CN=B40BFE10-4AEB-477D-A57C-4AF50DD425DA"
-	  Version="1.0.0.0" />
+	  Publisher="CN=B40BFE10-4AEB-477D-A57C-4AF50DD425DA" Version="1.0.0.0"/>
 
   <mp:PhoneIdentity PhoneProductId="302FCE47-C304-43D2-9F7D-338F9467654E" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 

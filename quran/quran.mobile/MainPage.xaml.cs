@@ -12,10 +12,26 @@ namespace quran.mobile
 
         public async Task LoadSorah(string server, int index, string surah, string reciter)
         {
-            string fullUrl = $"{server}{index.ToString("000")}.mp3";
+            string indexStr = index.ToString("000");
+            string fullUrl = $"{server}{indexStr}.mp3";
             player.Source = MediaSource.FromUri(fullUrl);
             player.MetadataTitle = surah;
             player.MetadataArtist = reciter;
+        }
+
+        public async Task Play()
+        {
+            player.Play();
+        }
+
+        public async Task Pause()
+        {
+            player.Pause();
+        }
+
+        public async Task Stop()
+        {
+            player.Stop();
         }
     }
 }

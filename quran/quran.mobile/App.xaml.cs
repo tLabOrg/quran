@@ -1,11 +1,7 @@
-﻿using Microsoft.Maui.Platform;
-
-namespace quran.mobile
+﻿namespace quran.mobile
 {
     public partial class App : Application
     {
-
-
         public App()
         {
             InitializeComponent();
@@ -16,9 +12,10 @@ namespace quran.mobile
             var window = new Window(new MainPage()) { Title = "المصحف المرتل" };
             window.Width = 400;
             window.Height = 700;
+            window.MaximumWidth = 400;
             window.MinimumWidth = 400;
             window.MinimumHeight = 400;
-
+                        
             // get screen size
             var displayInfo = DeviceDisplay.Current.MainDisplayInfo;
             var screenWidth = displayInfo.Width / displayInfo.Density;
