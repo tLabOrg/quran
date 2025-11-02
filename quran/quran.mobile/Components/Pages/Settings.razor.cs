@@ -6,6 +6,14 @@ namespace quran.mobile.Components.Pages
     {
         [Inject]
         NavigationManager Nav { get; set; }
+
+#if ANDROID
+        const string url = "https://play.google.com/store/apps/details?id=org.arbweb.moratal";
+
+#elif WINDOWS
+        const string url = "ms-windows-store://pdp/?productid=9P4V496BSCWP";
+#endif
+
         async Task OnBackPressed()
         {
             Nav.NavigateTo("/");
@@ -13,14 +21,6 @@ namespace quran.mobile.Components.Pages
 
         async Task OnRatePressed()
         {
-            string url = string.Empty;
-#if ANDROID
-            url = "https://play.google.com/store/apps/details?id=org.arbweb.moratal";
-#elif IOS
-            // url = "https://apps.apple.com/us/app/moratal/id000000000";
-#elif WINDOWS
-            url = "ms-windows-store://pdp/?productid=9P4V496BSCWP";
-#endif
             await Launcher.OpenAsync(url);
         }
 
@@ -39,7 +39,7 @@ namespace quran.mobile.Components.Pages
             await Share.RequestAsync(new ShareTextRequest
             {
                 Title = "مشاركة تطبيق المصحف المرتل",
-                Text = "https://play.google.com/store/apps/details?id=org.arbweb.moratal"
+                Text = url
             });
         }
     }
