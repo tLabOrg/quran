@@ -117,7 +117,7 @@ https://www.mp3quran.net/api/v3/reciters?language=ar
 
 | الشاشة الرئيسية | قائمة السور | المشغل |
 |:---:|:---:|:---:|
-| ![Home](docs/screenshots/home.png) | ![Suras](docs/screenshots/suras.png) | ![Player](docs/screenshots/player.png) |
+| ![Home](docs/screens/1.jpg) | ![Suras](docs/screens/2.jpg) | ![Player](docs/screens/7.jpg) |
 
 </div>
 
