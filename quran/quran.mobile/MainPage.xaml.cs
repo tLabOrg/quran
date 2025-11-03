@@ -1,5 +1,4 @@
 ﻿using CommunityToolkit.Maui.Views;
-using quran.mobile.Components.Pages;
 
 namespace quran.mobile
 {
